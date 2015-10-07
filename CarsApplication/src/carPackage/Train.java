@@ -1,6 +1,6 @@
 package carPackage;
 
-public class Train extends Vehicle {
+public class Train extends Vehicle{
 	
 	private boolean engine;
 	private int speed;

@@ -1,6 +1,6 @@
 package carPackage;
 
-public class Boat extends Vehicle {
+public final class  Boat extends Vehicle {
 	private boolean engine;
 	private int speed;
 	private String color;
