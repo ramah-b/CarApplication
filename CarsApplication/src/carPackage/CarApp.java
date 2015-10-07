@@ -16,7 +16,7 @@ public class CarApp {
 
 		myCar.accelerate(40);
 
-		myCar.printSpeedinMPH();
+		myCar.printSpeed();
 
 		myCar.slow(30);
 
@@ -25,22 +25,17 @@ public class CarApp {
 		System.out.println("\n\n");
 
 		//second car
-		Car myNewCar = new Car();
-
-		myNewCar.setColor("Blue");
-		myNewCar.setMake("Lexus");
-
-		System.out.println(myNewCar.getCarDetails());
-
-		myNewCar.start(20);
-
-		myNewCar.accelerate(50);
-
-		myNewCar.printSpeedinMPH();
+		Plane myFlight = new Plane();
+		myFlight.setMake("Boeing");
+		myFlight.setColor("White");
+		System.out.println(myFlight.getCarDetails());
+		myFlight.start(1000);
+		myFlight.accelerate(2000);
+		myFlight.printSpeed();
 		
-		myNewCar.slow(50);
-
-		myNewCar.stop();
-
+		myFlight.slow(2000);
+		myFlight.stop();
+		
+		
 	}
 }

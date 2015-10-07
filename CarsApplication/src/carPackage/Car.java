@@ -1,6 +1,6 @@
 package carPackage;
 
-public class Car {
+public class Car extends Vehicle{
 
 	private boolean engine;
 	private int speed;
@@ -15,6 +15,7 @@ public class Car {
 		this.speed = 0;
 		this.numOfPassangers = 0;
 		this.milage = 0;
+		System.out.println("The car is ready.");
 	}
 
 	//setters & getters
@@ -145,7 +146,7 @@ public class Car {
 
 	
 	//method to print the speed in mph
-	public void printSpeedinMPH() {
+	public void printSpeed() {
 		System.out.println("The car is going " + this.getSpeed() + "mph");
 	}
 }
